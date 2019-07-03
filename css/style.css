@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #aba9ad;
+}
+
+h1 {
+    font-size: 10vh;
+    color: hsl(270, 2%, 67%);
+}
+
+#banner-image {
+    height: 100vh;
+    filter: grayscale(100%);
+}
+.second-banner {
+    height: 100vh;
+    filter: brightness(40%);
+    opacity: 0.3;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#second-container, #third-container {
+    background: #140b19;
+}
+.article-title {
+    border-style: 2px solid #ba3827;
+}
+button {
+    background-color: #010102;
+    padding: 20px 60px;
+    border-radius: 40px;
+    border: 3px solid #ba3827;
+}
+
+.radiation-icon {
+    height: 40px;
+    width: 40px;
+    color: #aba9ad;
+}
+
+/* Animations */
+.rotate-center {
+    -webkit-animation: rotate-center 5s linear infinite forwards;
+    animation: rotate-center 5s linear infinite forwards;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
